@@ -419,7 +419,7 @@ Publish the website in the given URL.
 ![image](https://github.com/dharshan7200/softweb/assets/138850116/004fdb32-a4b4-4307-aa6b-28041c4067f2)
 
 
-## HTML VALIDATOR:
+
 
 
 ## RESULT:
