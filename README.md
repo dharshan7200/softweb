@@ -410,14 +410,13 @@ Publish the website in the given URL.
 </html>
 ```
 ## OUTPUT:
-![image](https://github.com/dharshan7200/softweb/assets/138850116/b9fb8257-9290-4011-9eb0-4d61b34e72df)
+![1html](https://github.com/dharshan7200/softweb/assets/138850116/c7a0a084-0152-4e82-9e4e-999dd204e1a1)
 
-![image](https://github.com/dharshan7200/softweb/assets/138850116/919d20f6-535e-452d-a932-62a80700232b)
+![2html](https://github.com/dharshan7200/softweb/assets/138850116/992e2836-d398-4b60-927b-72bffd2bd685)
 
-![image](https://github.com/dharshan7200/softweb/assets/138850116/583edc1e-9ce7-4f2b-a047-e680e52847f4)
+![3html](https://github.com/dharshan7200/softweb/assets/138850116/7d9c4ece-b590-46a3-914f-963dfffea7db)
 
-![image](https://github.com/dharshan7200/softweb/assets/138850116/004fdb32-a4b4-4307-aa6b-28041c4067f2)
-
+![4html](https://github.com/dharshan7200/softweb/assets/138850116/390bbc7c-9334-4b24-8e33-312679a06298)
 
 
 
