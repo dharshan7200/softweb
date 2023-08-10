@@ -28,7 +28,6 @@ Publish the website in the given URL.
 ## PROGRAM:
 ```
 home.html
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -37,7 +36,7 @@ home.html
         </title>
         <meta name="viewport" 
          content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
+        <link rel="stylesheet" href="/static/CSS/style.css">
     <style>
     .text{
         color:blueviolet;
@@ -46,8 +45,8 @@ home.html
         text-align:center;
     }
     img{
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         align-items:center;
     }
     </style>
@@ -61,45 +60,355 @@ home.html
                     <div class=h>
                     <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
                     <div class="prod">
-                    <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
+                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
                     </div>
                     <div class="people">
-                    <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
+                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
                     </div>
                     <div class="contact">
-                    <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
+                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
                     </div>
                 </header>
                 <div class="title">
-                <h1>MARVEL UNIVERSE</h1>
+                    <h1>FreeMasons Sports City</h1>
                 </div><br>
                 <div class="content">
                     <div class="text">
-                    <marquee><b>Feel power of our Store</b></marquee>
-                    <p style="color:purple; font-family:'Tahoma'; font-size:20px;"> This is the Official Website of our marvel store</p>
+                    <marquee><b> Good Quality Things</b></marquee>
+                    <p style="color:purple; font-family:'Tahoma'; font-size:20px;"> This is the Official Website of our Sorts Company</p>
                     </div>
-                    <p>Buy keychains and T-shirts online for men from <span style="background-color:lime">MARVEL UNIVERSE</span>
-                         for Rs.200 | Buy T-shirts in ONE SIZE online | 7 Days Returns | Trend setting models | And much more</p>
+                    <p>Buy sports items <span style="background-color:lime">FreeMasons Sports City</span>
+                         Buy cricket kit, Badminton, Golf Kit in online | All Brands are available| And much more</p>
                     <br>
-                    <center>
-                    <img src="/static/images/ben1.png">
-                    <img src="/static/images/ben2.jpeg">
-                    <img src="/static/images/ben3.jpeg">
-                    <img src="/static/images/ben4.jpeg">
-                    <img src="/static/images/ben5.png">
-                    <img src="/static/images/ben6.jpeg">
+                <center>
+                    <img src="/static/images/bg1.jpeg">
+                    <img src="/static/images/bg2.jpeg">
                 </center>
                 </div>
                 <div class="footer">
                 <footer style="color:white">
-                Copyright &copy;2023 Developed by DHARSHAN</footer></div>
+                Copyright &copy;2023 Developed by Dharshan</footer></div>
             </div>
         </div>
     </body>
 </html>
 
-products.html
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/CSS/style.css">
+    <style>
+    .text{
+        color:blueviolet;
+        font-family:'Lucida Sans';
+        font-size: 30px;
+        text-align:center;
+    }
+    
+    </style>
 
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>Contact Us</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <p><b>Here are the details about us
+                    <h5>Do contact us for any need</h5></b></p>
+                    
+                    </div>
+                    <b><h2>Contact Information:</h2></b>
+                    <p><b>&emsp;&ensp;Address:</b>
+                        Adyar, Chennai, TamilNadu, India.
+                    </p>
+                    <ul>
+                        <li><b>Landline:</b> 84447613 </li>
+                        <li><b>Mobile</b>: 9334768860 </li>
+                        <li><b>Facebook</b>: fb/yuvsports </li>
+                        <li><b>Email Id:</b>freemasons@sportscity.com</li>
+                    </ul>
+                    <div style="text-align: center;color:violet;font-size:20px;"><b>Use our services and Buy things!</b></div>
+
+                </div>
+                <div class="footer">
+                <footer style="color:white">
+                Copyright &copy;2023 Developed by Dharshan</footer></div>
+            </div>
+        </div>
+    </body>
+</html>
+people.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            People
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/CSS/style.css">
+        <style>
+        .home{
+            height: 3000px;
+            width: 85%;
+            border: 12px solid red;
+            padding-left:10px;
+            padding-right:10px;
+            margin-left: auto;
+            margin-right:auto;
+            background-color:cyan;
+        }
+        .text{
+        color:blueviolet;
+        font-family:'Lucida Sans';
+        font-size: 30px;
+        text-align:center;
+        
+        }
+        .content{
+            border:2px solid green;
+            background-color:lime;
+            width:98%;
+            height:2690px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .ceoph{
+            background-image: url(/static/images/p1.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid gold;
+            height:300px;
+            width:20%;
+            position:relative;
+            left: 0px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .ceo{
+            color: red;
+            position:relative;
+            text-align:center;
+            
+            
+        }
+        .manph1{
+            background-image: url(/static/images/p2.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:300px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;            
+        }
+        .man1{
+            color: red;
+            position:relative;
+            text-align:center;
+            
+        }
+        .manph2{
+            background-image: url(/static/images/p3.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:300px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .man2{
+            color: red;
+            position:relative;
+            text-align:center;
+        }
+        
+        .amph1{
+            background-image: url(/static/images/p4.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:300px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am1{
+            color: red;
+            position:relative;
+            text-align:center;
+        }
+
+        .amph2{
+            background-image: url(/static/images/p5.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:220px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am2{
+            color: red;
+            position:relative;
+            text-align:center;
+        }
+        .amph3{
+            background-image: url(/static/images/p6.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:250px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am3{
+            color: red;
+            position:relative;
+            text-align:center;
+        }
+        .amph4{
+            background-image: url(/static/images/p7.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:250px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am4{
+            color: red;
+            position:relative;
+            text-align:center;
+        }
+        .amph5{
+            background-image: url(/static/images/p8.png);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:250px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am5{
+            color: red;
+            position:relative;
+            text-align:center;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>People</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <p>Board Members</p>
+                    <h4><u>Chairman</u></h4>
+                    </div>
+                    <div class="ceoph"></div>
+                    <div class="ceo"><p align="center"><b><h2>Dharshan</h2></b></div>
+                    <br>
+                    <div class="text">
+                        <p><b><u>Head executives</u></b></p><br>
+                    </div>
+                    <div class="manph1"></div>
+                    <div class="man1"><p align="center"><b><h2>Yuvan</h2></b></p></div>
+                    <div class="manph2"></div>
+                    <div class="man2"><p><b><h2>Vignesh</h2></b></p></div>
+                    <br>
+                    <div class="text"><p><b><u>Managers</u></b></p></div><br>
+                    <div class="amph1"></div>
+                    <div class="am1"><p align="center"><b><h2>Devesh</h2></b></p></div>
+                    <div class="amph2"></div>
+                    <div class="am2"><p align="center"><b><h2>Manikandan</h2></b></p></div>
+                    <div class="amph3"></div>
+                    <div class="am3"><p align="center"><b><h2>Moonesh</h2></b></p></div><br>
+                    <div class="amph4"></div>
+                    <div class="am4"><p align="center"><b><h2>Prem Kumar</h2></b></p></div><br>
+                    <div class="amph5"></div>
+                    <div class="am5"><p align="center"><b><h2>Veeraragavan</h2></b></p></div><br>
+                    <div class="text">Thank you so much for your kind support!<br>Hope our products had made you more Happy!</div>
+                </div>
+                <div class="footer">
+                <footer style="color:white">
+                Copyright &copy;2023 Developed by Dharshan</footer></div>
+            </div>
+        </div>
+    </body>
+</html>
+product.html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -107,14 +416,14 @@ products.html
             Products
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
+        <link rel="stylesheet" href="/static/CSS/style.css">
         <style>
         .home{
-            height: 1555px;
-            width: 85%;
+            height: 2400px;
+            width: 90%;
             border: 12px solid red;
-            padding-left:10px;
-            padding-right:10px;
+            padding-left:35px;
+            padding-right:35px;
             margin-left: auto;
             margin-right:auto;
             background-color:cyan;
@@ -188,7 +497,7 @@ products.html
             right:380px;
         }
         .ph4{
-            background-image: url(/static/images/item4.jpeg);
+            background-image: url(/static/images/item5.jpeg);
             background-position-x: center;
             border:1px solid black;
             height:200px;
@@ -209,10 +518,10 @@ products.html
         }
     
         .ph5{
-            background-image: url(/static/images/item5.jpeg);
+            background-image: url(/static/images/item6.jpeg);
             background-position-x: center;
             border:1px solid black;
-            height:200px;
+            height:210px;
             width:30%;
             position:relative;
             left: 700px;
@@ -230,7 +539,7 @@ products.html
         }
 
         .ph6{
-            background-image: url(/static/images/item6.jpeg);
+            background-image: url(/static/images/item7.jpeg);
             background-position-x: center;
             border:1px solid black;
             height:200px;
@@ -248,6 +557,125 @@ products.html
             position:relative;
             left:270px;
             bottom: 930px;
+        }
+        .ph7{
+            background-image: url(/static/images/item8.jpeg);
+            background-position-x: center;
+            border:1px solid black;
+            height:200px;
+            width:30%;
+            position:relative;
+            left: 700px;
+            bottom:930px;
+            background-size: 280px;
+            background-repeat: no-repeat;
+            
+        }
+        .l7{
+            color: blanchedalmond;
+            position:relative;
+            left:270px;
+            bottom: 930px;
+        }
+        .ph8{
+            background-image: url(/static/images/item9.jpeg);
+            background-position-x: center;
+            border:1px solid black;
+            height:200px;
+            width:30%;
+            position:relative;
+            left: 700px;
+            bottom:930px;
+            background-size: 280px;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .l8{
+            color: chocolate;
+            position:relative;
+            left:270px;
+            bottom: 930px;
+        }
+        .ph9{
+            background-image: url(/static/images/item10.jpeg);
+            background-position-x: center;
+            border:1px solid black;
+            height:200px;
+            width:30%;
+            position:relative;
+            left: 700px;
+            bottom:930px;
+            background-size: 280px;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .l9{
+            color: aquamarine;
+            position:relative;
+            left:270px;
+            bottom: 930px;
+        }
+        .ph10{
+            background-image: url(/static/images/item11.jpeg);
+            background-position-x: center;
+            border:1px solid black;
+            height:200px;
+            width:30%;
+            position:relative;
+            right: -70px;
+            bottom:1260px;
+            background-size: 280px;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .l10{
+            color: darkorchid;
+            position:relative;
+            right:370px;
+            bottom: 1270px;
+        }
+        .ph11{
+            background-image: url(/static/images/item12.jpeg);
+            background-position-x: center;
+            border:1px solid black;
+            height:200px;
+            width:30%;
+            position:relative;
+            right: -70px;
+            bottom:1920px;
+            background-size: 280px;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .l11{
+            color: forestgreen;
+            position:relative;
+            right:370px;
+            bottom: 1910px;
+        }
+        .ph12{
+            background-image: url(/images/item13.jpeg);
+            background-position-x: center;
+            border:1px solid black;
+            height:200px;
+            width:30%;
+            position:relative;
+            right: -70px;
+            bottom:2550px;
+            background-size: 280px;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .l12{
+            color: grey;
+            position:relative;
+            right:370px;
+            bottom: 2560px;
         }
         .bot{
             text-align:center;
@@ -282,445 +710,50 @@ products.html
                     <p>These are the products that are available now</p>
                     </div>
                     <div class="ph1"></div>
-                    <div class="l1"><p align="center"><b>HAIR REMOVAL<br> Price: 299.00</b><br><br><br><br></p></div>
+                    <div class="l1"><p align="center"><b>Hockey Kit<br> Price: 30000.00</b><br><br><br><br></p></div>
                     <div class="ph2"></div>
-                    <div class="l2"><p align="center"><b>COLA<br> Price: 599.00</b><br><br><br><br></p></div>
+                    <div class="l2"><p align="center"><b>SG Cricket Kit<br> Price: 6000.00</b><br><br><br><br></p></div>
                     <div class="ph3"></div>
-                    <div class="l3"><p align="center"><b>SNACKS<br> Price: 499.00</b><br<br><br><br></p></div>
+                    <div class="l3"><p align="center"><b>Younex Badminton Kit<br> Price: 1999.00</b><br<br><br><br></p></div>
                     <div class="ph4"></div>
-                    <div class="l4"><p align="center"><b>EARBUDS<br> Price: 290.00</b><br><br><br><br></p></div>
+                    <div class="l4"><p align="center"><b>Football Kit<br> Price: 2999.00</b><br><br><br><br></p></div>
                     <div class="ph5"></div>
-                    <div class="l5"><p align="center"><b>CCTV<br> Price: 399.00</b><br><br><br><br></p></div>
+                    <div class="l5"><p align="center"><b>Baseball Kit<br> Price: 4999.00</b><br><br><br><br></p></div>
                     <div class="ph6"></div>
-                    <div class="l6"><p align="center"><b>ICECREAM<br> Price: 299.00</b><br><br><br><br></p></div>
-         
-                </div>
-                <div class="bot"><p>To Order Online: Call 98000 98000 </p></div>
+                    <div class="l6"><p align="center"><b>STX Field Hockey Kit<br> Price: 22999.00</b><br><br><br><br></p></div>
+                    <div class="ph7"></div>
+                    <div class="l7"><p align="center"><b>Spartan Toska English Wilow Bat<br> Price: 1999.00</b><br><br><br><br></p></div>
+                    <div class="ph8"></div>
+                    <div class="l8"><p align="center"><b>Nivia Volleyball<br> Price: 799.00</b><br><br><br><br></p></div>
+                    <div class="ph9"></div>
+                    <div class="l9"><p align="center"><b>MRF English Willow Cricket Bat<br> Price: 10999.00</b><br><br><br><br></p></div>
+                    <div class="ph10"></div>
+                    <div class="l10"><p align="center"><b>SS Sunridges<br> Price: 22999.00</b><br><br><br><br></p></div>
+                    <div class="ph11"></div>
+                    <div class="l11"><p align="center"><b>Heega Red Leather Ball<br> Price: 1499.00</b><br><br><br><br></p></div>
+                <div class="bot"><p>To Order Online: Call: 8838699755</p></div>
 
                 <div class="footer">
                 <footer style="color:white">
-                Copyright &copy;2023 Developed by DHARSHAN</footer></div>
+                Copyright &copy;2023 Developed by Yuvan</footer></div>
             </div>
         </div>
     </body>
 </html>
-
-people.html
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            People
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
-        <style>
-        .home{
-            height: 3000px;
-            width: 85%;
-            border: 12px solid red;
-            padding-left:10px;
-            padding-right:10px;
-            margin-left: auto;
-            margin-right:auto;
-            background-color:cyan;
-        }
-        .text{
-        color:blueviolet;
-        font-family:'Lucida Sans';
-        font-size: 30px;
-        text-align:center;
-        
-        }
-        .content{
-            border:2px solid green;
-            background-color:lime;
-            width:98%;
-            height:2690px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        .ceoph{
-            background-image: url(/static/images/P1.jpeg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:3px solid gold;
-            height:300px;
-            width:20%;
-            position:relative;
-            left: 0px;
-            margin-left:auto;
-            margin-right: auto;
-        }
-        .ceo{
-            color: red;
-            position:relative;
-            text-align:center;
-            
-            
-        }
-        .manph1{
-            background-image: url(/static/images/P2.jpeg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:300px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;            
-        }
-        .man1{
-            color: red;
-            position:relative;
-            text-align:center;
-            
-        }
-        .manph2{
-            background-image: url(/static/images/P3.jpeg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:300px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
-
-            
-        }
-        .man2{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-        
-        .amph1{
-            background-image: url(/static/images/P4.jpeg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:300px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
-
-            
-        }
-        .am1{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-
-        .amph2{
-            background-image: url(/static/images/P5.jpeg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:220px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
-
-            
-        }
-        .am2{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-        .amph3{
-            background-image: url(/static/images/p6.jpeg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:250px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
-
-            
-        }
-        .am3{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="home">
-            <div class="header">
-                <header>
-                    <div class=logo></div>
-                    <div class=h>
-                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
-                    <div class="prod">
-                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
-                    </div>
-                    <div class="people">
-                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
-                    </div>
-                    <div class="contact">
-                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
-                    </div>
-                </header>
-                <div class="title">
-                    <h1>People</h1>
-                </div><br>
-                <div class="content">
-                    <div class="text">
-                    <p>Board Members</p>
-                    <h4><u>Chairman</u></h4>
-                    </div>
-                    <div class="ceoph"></div>
-                    <div class="ceo"><p align="center"><b><h2>Robert dowery junior</h2></b></div>
-                    <br>
-                    <div class="text">
-                        <p><b><u>Head executives</u></b></p><br>
-                    </div>
-                    <div class="manph1"></div>
-                    <div class="man1"><p align="center"><b><h2>Chris evans</h2></b></p></div>
-                    <div class="manph2"></div>
-                    <div class="man2"><p><b><h2>chris hemsworth</h2></b></p></div>
-                    <br>
-                    <div class="text"><p><b><u>Managers</u></b></p></div><br>
-                    <div class="amph1"></div>
-                    <div class="am1"><p align="center"><b><h2>Scarlet johaansaan</h2></b></p></div>
-                    <div class="amph2"></div>
-                    <div class="am2"><p align="center"><b><h2>Elisabath olsen</h2></b></p></div>
-                    <div class="amph3"></div>
-                    <div class="am3"><p align="center"><b><h2>Bire larson</h2></b></p></div><br>
-                    <div class="text">Thank you so much for your kind support!<br>Hope our products had made you more B-E-A-UTIFUL!</div>
-                </div>
-                <div class="footer">
-                <footer style="color:white">
-                Copyright &copy;2023 Developed by DHARSHAN</footer></div>
-            </div>
-        </div>
-    </body>
-</html>
-
-contact.html
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            Contact Us
-        </title>
-        <meta name="viewport" 
-         content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
-    <style>
-    .text{
-        color:blueviolet;
-        font-family:'Lucida Sans';
-        font-size: 30px;
-        text-align:center;
-    }
-    
-    </style>
-
-    </head>
-    <body>
-        <div class="home">
-            <div class="header">
-                <header>
-                    <div class=logo></div>
-                    <div class=h>
-                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
-                    <div class="prod">
-                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
-                    </div>
-                    <div class="people">
-                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
-                    </div>
-                    <div class="contact">
-                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
-                    </div>
-                </header>
-                <div class="title">
-                    <h1>Contact Us</h1>
-                </div><br>
-                <div class="content">
-                    <div class="text">
-                    <p><b>Here are the details about us
-                    <h5>Do contact us for any need</h5></b></p>
-                    
-                    </div>
-                    <b><h2>Contact Information:</h2></b>
-                    <p><b>&emsp;&ensp;Address:</b>
-                        ranipet, TamilNadu, India.
-                    </p>
-                    <ul>
-                        <li><b>Landline:</b> 56894258</li>
-                        <li><b>Mobile</b>: 98000 98000</li>
-                        <li><b>Facebook</b>: fb/MARVELUNIVERSE</li>
-                        <li><b>Email Id:</b>:marveluniverse@gmail.com</li>
-                    </ul>
-                    <div style="text-align: center;color:violet;font-size:20px;"><b>Use our services and Beautify Yourself!</b></div>
-
-                </div>
-                <div class="footer">
-                <footer style="color:white">
-                Copyright &copy;2023 Developed by DHARSHAN</footer></div>
-            </div>
-        </div>
-    </body>
-</html>
-
-styles.css
-
-.home{
-            height: 700px;
-            width: 85%;
-            border: 12px solid red;
-            padding-left:10px;
-            padding-right:10px;
-            margin-left: auto;
-            margin-right:auto;
-            background-color:cyan;
-        }
-        .content{
-            border:1px solid whitesmoke;
-            background-color: white;
-            width:95%;
-            height:1190px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        .header{
-            height: 128px;
-            width:100%;
-            background-image: url(/static/images/header.jpeg);
-            background-size: cover;
-            
-        }
-        .logo{
-            height:18%;
-            width: 10%;
-            position:absolute;
-            background-image: url(/static/images/icon.jpeg);
-            background-size:cover;
-            
-        }
-        .prod{
-            height:auto;
-            width:auto;
-            position:relative;
-            bottom:10px;
-            left:550px;
-            border:4px solid transparent;
-            text-align:center;
-            display: inline;
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .prod:hover{
-            background-color:red;
-        }
-        .people{
-            height:auto;
-            width:auto;
-            position:relative;
-            bottom:10px;
-            left:700px;
-            border:4px solid transparent;
-            text-align:center;
-            display: inline;
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .people:hover{
-            background-color:red;
-        }
-        .contact{
-            height:20px;
-            width:10%;
-            position:relative;
-            bottom:45px;
-            left:1000px;
-            border:4px solid transparent;
-            text-align:center;
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .contact:hover{
-            background-color:red;
-        }
-                
-        .h{
-            height:20px;
-            width:10%;
-            position:relative;
-            top:30px;
-            left:200px;
-            border:4px solid transparent;
-            text-align:center;
-            
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .h:hover{
-            background-color:red;
-            overflow:hidden;
-        }
-        .footer{
-            border: 15px solid red;
-            width:98%;
-            height:10px;
-            position:relative;
-            bottom: 1px;
-            background-color:red;
-            text-align:center;
-
-        }
-        .title{
-            border:2px solid pink;
-            background-color:yellow;
-            padding:1px;
-            width:99.7%;
-            height: 70px;
-            text-align:center;
-            font-family:'Impact';
-            margin-left:auto;
-            margin-right: auto;
-            
-        }
-        .content{
-            border:1px solid red;
-            background-color: white;
-            width:98%;
-            height:400px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
 ```
+
+
 ## OUTPUT:
-![dharshan html1](https://github.com/dharshan7200/softweb/assets/138850116/7618991f-01ac-4d89-856b-78eb37193f7a)
-![dharshan2](https://github.com/dharshan7200/softweb/assets/138850116/1723f58d-8e6b-423a-9b98-c5a2276afa44)
-![dharshan3](https://github.com/dharshan7200/softweb/assets/138850116/fdf63025-929a-4e27-af10-9f24cd7788bd)
-![dharshan4](https://github.com/dharshan7200/softweb/assets/138850116/deb2ecea-2628-4278-8679-56538a578d88)
 
-
+![Screenshot (40)](https://github.com/dharshan7200/softweb/assets/138850116/7683afed-a734-45ef-9138-fe4c05f792dd)
+![Screenshot (41)](https://github.com/dharshan7200/softweb/assets/138850116/6a4fa0a4-a042-4e12-af03-22a9d3da3282)
+![Screenshot (47)](https://github.com/dharshan7200/softweb/assets/138850116/05fe532e-90d7-4e3c-823d-c132ff9bd63f)
+![Screenshot (48)](https://github.com/dharshan7200/softweb/assets/138850116/170b862f-2863-4ffd-8ef1-0e1c1b7dc913)
+![Screenshot (49)](https://github.com/dharshan7200/softweb/assets/138850116/1016d401-9aec-4f1f-89b5-4c7ad0ef3933)
+![Screenshot (50)](https://github.com/dharshan7200/softweb/assets/138850116/103fa20b-ffef-48d1-a2d6-95f95e787125)
+![Screenshot (53)](https://github.com/dharshan7200/softweb/assets/138850116/386049c3-24d1-4ccf-af0a-6db1a1e2efba)
+![Screenshot (54)](https://github.com/dharshan7200/softweb/assets/138850116/4ab68b5c-edb3-4f0f-ba46-45fd77f122e9)
+![Screenshot (55)](https://github.com/dharshan7200/softweb/assets/138850116/8a749a06-3858-4cfa-a969-139082720516)
 
 
 
